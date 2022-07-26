@@ -1,0 +1,61 @@
+﻿* {
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button, a{
+  cursor: pointer;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  background-image: url(../../assets/img/header-bg.jpg);
+  height: 50vh;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.btn-services {
+  background-image: url(../../assets/img/touch-bg.png);
+  width: 23%;
+  height: 65px;
+  border-radius: 55px;
+  color: white;
+}
+
+.img-work {
+  width: 95%;
+  padding-bottom: 14%;
+}
+
+.img-card_references {
+  width: 125%;
+  margin: -50px 0 30px 32px;
+}
+
+.references-bg {
+  background: url(../../assets/img/references-image-bg.png) no-repeat;
+}
+
+.form-control,
+.section4 {
+  background-color: rgb(0, 0, 0);
+}
+
+.footer {
+  background-image: url(../../assets/img/footer-bg.jpg);
+}
+
+.mail_phone-link,
+.social-link {
+  list-style: none;
+}
